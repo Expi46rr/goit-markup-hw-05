@@ -423,9 +423,8 @@ address {
   color: #ffffff;
   margin-bottom: 16px;
 }
-.style-for-text-hidden {
+.forhidden {
   position: relative;
-  width: calc((100% - 48px) / 3);
   overflow: hidden;
 }
 
