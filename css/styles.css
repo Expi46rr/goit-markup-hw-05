@@ -19,6 +19,7 @@ li {
   text-transform: uppercase;
   letter-spacing: 0.03em;
   margin-right: 76px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .studio {
   color: #2e2f42;
@@ -74,17 +75,17 @@ li {
   margin: 0 auto;
 }
 .sectiontitleposition {
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/background\ images.jpg);
   margin: 0 auto;
   background-color: #2e2f42;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   max-width: 1440px;
-  background-image: linear-gradient(
-      rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)
-    ),
-    url(../images/background\ images.jpg);
 }
 
 .button_section_one {
