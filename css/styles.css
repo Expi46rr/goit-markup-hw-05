@@ -19,7 +19,6 @@ li {
   text-transform: uppercase;
   letter-spacing: 0.03em;
   margin-right: 76px;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .studio {
   color: #2e2f42;
@@ -79,7 +78,7 @@ li {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/background\ images.jpg);
+    url(../images/backgroundimages.jpg);
   margin: 0 auto;
   background-color: #2e2f42;
   background-size: cover;
@@ -360,7 +359,6 @@ address {
   height: 4px;
   background-color: #404bbf;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
   border-radius: 2px;
   position: absolute;
   left: 0;
@@ -375,7 +373,7 @@ address {
   padding: 24px 0;
   display: block;
   position: relative;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .studiounderline:hover {
   color: #404bbf;
