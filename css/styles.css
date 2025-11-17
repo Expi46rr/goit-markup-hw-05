@@ -737,6 +737,10 @@ address {
 .form-footer-input::placeholder {
   color: white;
 }
+.form-footer-input:focus-within {
+  outline: #31d0aa;
+  border-color: #31d0aa;
+}
 .button-in-footer {
   background-color: #4d5ae5;
   color: #ffffff;
@@ -756,6 +760,10 @@ address {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   align-items: center;
   justify-content: center;
+}
+.button-in-footer:hover,
+.button-in-footer:focus {
+  background-color: #31d0aa;
 }
 .img-in-footer-button {
   fill: #ffffff;
