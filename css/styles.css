@@ -705,16 +705,21 @@ address {
 }
 
 /*styles for footer form*/
+
+.style-p-margin {
+  margin-left: 24px;
+}
 .form-footer-box {
+  text-align: start;
+  margin-left: 0;
 }
 .form-in-footer {
   display: flex;
-}
-.form-footer-label {
-  display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: flex-start;
   gap: 24px;
+}
+.form-footer-label {
 }
 .form-footer-input {
   color: #ffffff;
@@ -750,4 +755,7 @@ address {
   justify-content: center;
 }
 .img-in-footer-button {
+  fill: #ffffff;
+  margin-left: 16px;
+  background-color: transparent;
 }
